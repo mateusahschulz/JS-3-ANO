@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista 5: Exercício 4</title>
+</head>
+<body>
+    <script>
+        var alt = [];
+        
+        for (var i=0; i<20; i++){
+            alt.push(parseFloat(prompt("Digite a altura de uma pessoa: ")));
+        }
+        alert(`A média das alturas é ${ alt.reduce((a,b) => a + b) / alt.length }`)
+    </script>
+</body>
+</html>
